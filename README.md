@@ -1,4 +1,4 @@
-# Subtitle
+# Subtitle Chinese
 
 This project was created to find subtitles with chinese and english together in the same file. (also called `Zhe`)
 I need it to enjoy movies with my chinese friends, so all of us can enjoy subtitles in our own languages.
