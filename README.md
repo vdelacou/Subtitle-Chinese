@@ -33,7 +33,10 @@ You need to install subliminal
 
 
 ## Docker:
-`docker run --rm -v <your_video_folder>:<pathToScan> lerignoux/subtitle-chinese:latest`
+`docker run --rm -v <your_video_folder>:/videos lerignoux/subtitle-chinese:latest`
+
+If you want to override properties.in:
+`docker run --rm -v <your_video_folder>:/videos <properties.ini_path>:/app/properties.ini lerignoux/subtitle-chinese:latest`
 
 # TODO
 
