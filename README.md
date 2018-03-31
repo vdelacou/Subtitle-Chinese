@@ -32,6 +32,9 @@ You need to install subliminal
 `$ python .\sub.py`
 
 
+## Docker:
+`docker run --rm -v <your_video_folder>:<pathToScan> lerignoux/subtitle-chinese:latest`
+
 # TODO
 
 * Create docker image
@@ -43,4 +46,3 @@ You need to install subliminal
 # PULL REQUESTS
 
 Obviously they are all welcome
-
