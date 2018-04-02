@@ -32,6 +32,12 @@ You need to install subliminal
 `$ python .\sub.py`
 
 
+## Docker:
+`docker run --rm -v <your_video_folder>:/videos lerignoux/subtitle-chinese:latest`
+
+If you want to override properties.in:
+`docker run --rm -v <your_video_folder>:/videos <properties.ini_path>:/app/properties.ini lerignoux/subtitle-chinese:latest`
+
 # TODO
 
 * Create docker image
@@ -43,4 +49,3 @@ You need to install subliminal
 # PULL REQUESTS
 
 Obviously they are all welcome
-
